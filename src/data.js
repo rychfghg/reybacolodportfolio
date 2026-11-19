@@ -10,7 +10,7 @@ export const profile = {
   github: 'https://github.com/rychfghg',
   // Paste your resume link here (Google Drive, PDF, etc.). While empty, the
   // Resume button shows a "coming soon" message instead.
-  resume: '',
+  resume: '/Rey-Christian-Bacolod-Resume.pdf',
 }
 
 // links: { live, code, design } - leave out any that don't apply
