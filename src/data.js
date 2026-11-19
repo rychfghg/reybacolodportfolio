@@ -76,16 +76,18 @@ export const projects = [
   },
   {
     title: 'CampusEvent Reserve',
-    kicker: 'Figma Design · Web & Mobile',
-    role: 'UI/UX Designer',
+    kicker: 'Web App + Figma Design',
+    role: 'Designer & Developer',
     year: '2026',
     description:
-      'A campus event and venue reservation experience for web and mobile, designed and prototyped in Figma with clear user flows, an easy booking journey and a consistent component system.',
-    tags: ['Figma', 'UI/UX', 'Web & Mobile', 'Prototyping', 'Wireframing'],
+      'A campus event reservation system for web and mobile. I designed the web and mobile UI in Figma, then built the web app with React and TypeScript: login and registration, a dashboard, an event list and a step-by-step reservation flow connected to a backend API.',
+    tags: ['React', 'TypeScript', 'React Router', 'Axios', 'CSS', 'Figma', 'Vercel'],
     links: {
+      live: 'https://campus-event-reserve.vercel.app',
+      code: 'https://github.com/rychfghg/Campus-Event-Reserve',
       design: 'https://www.figma.com/proto/roBzckLvXRyzN7cCmMFuhv/CampusEvent-Reserve-Web-and-Mobile?node-id=97-1515&p=f&t=JW4Zm8EPXFjhqB5g-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=97%3A1259&show-proto-sidebar=1',
     },
-    theme: { bg: '#3a1608', accent: '#ff8a4c', image: null, glyph: 'UI/UX' },
+    theme: { bg: '#1b1f4d', accent: '#8f95ff', image: '/shots/campusevent.jpg', glyph: 'Reserve' },
   },
 ]
 
@@ -93,7 +95,7 @@ export const stack = [
   {
     group: 'Development',
     icon: '</>',
-    items: ['TypeScript', 'JavaScript', 'React', 'React Native', 'Expo', 'Vite', 'Zustand', 'React Router', 'HTML', 'CSS', 'Java', 'Spring Boot', 'Python', 'Android (Java)'],
+    items: ['TypeScript', 'JavaScript', 'React', 'React Native', 'Expo', 'Vite', 'Zustand', 'React Router', 'Axios', 'HTML', 'CSS', 'Java', 'Spring Boot', 'Python', 'Android (Java)'],
   },
   {
     group: 'Databases & Backend',
