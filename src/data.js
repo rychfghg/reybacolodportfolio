@@ -75,15 +75,15 @@ export const projects = [
     },
   },
   {
-    title: 'CampusReserve',
-    kicker: 'UI/UX Case Study',
+    title: 'CampusEvent Reserve',
+    kicker: 'Figma Design · Web & Mobile',
     role: 'UI/UX Designer',
     year: '2026',
     description:
-      'A campus facility reservation experience designed in Figma, with clear user flows, an easy booking journey and a consistent component system.',
-    tags: ['Figma', 'UI/UX', 'Prototyping', 'Wireframing'],
+      'A campus event and venue reservation experience for web and mobile, designed and prototyped in Figma with clear user flows, an easy booking journey and a consistent component system.',
+    tags: ['Figma', 'UI/UX', 'Web & Mobile', 'Prototyping', 'Wireframing'],
     links: {
-      design: 'https://www.figma.com/design/kZhUDkGrcNsaPFKlHxxcjD/CampusReserve?t=1GPyyPzW7W9gw3Ir-0',
+      design: 'https://www.figma.com/proto/roBzckLvXRyzN7cCmMFuhv/CampusEvent-Reserve-Web-and-Mobile?node-id=97-1515&p=f&t=JW4Zm8EPXFjhqB5g-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=97%3A1259&show-proto-sidebar=1',
     },
     theme: { bg: '#3a1608', accent: '#ff8a4c', image: null, glyph: 'UI/UX' },
   },

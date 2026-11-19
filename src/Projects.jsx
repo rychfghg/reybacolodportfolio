@@ -2,16 +2,16 @@ import { useEffect, useRef } from 'react'
 import { projects } from './data.js'
 import { Arrow, Icon } from './icons.jsx'
 
-const LABEL = { live: 'Live site', download: 'Download app', code: 'Source code', design: 'Figma design' }
+const LABEL = { live: 'Live site', download: 'Download app', code: 'Source code', design: 'View Figma prototype' }
 const ext = { target: '_blank', rel: 'noreferrer' }
 const host = (u) => (u || '').replace(/^https?:\/\/(www\.)?/, '').split('/')[0]
 
 function FigmaMock({ accent }) {
   return (
     <div className="figma">
-      <div className="figma-bar"><Icon.design /><span>CampusReserve</span><em>Design</em><em>Prototype</em></div>
+      <div className="figma-bar"><Icon.design /><span>CampusEvent Reserve</span><em>Design</em><em>Prototype</em></div>
       <div className="figma-canvas">
-        {['Login', 'Browse rooms', 'Book a slot'].map((t, i) => (
+        {['Login', 'Browse events', 'Reserve a venue'].map((t, i) => (
           <div key={t} className="frame" style={{ '--d': `${i * 0.15}s` }}>
             <span className="frame-label">{t}</span>
             <div className="phone">
