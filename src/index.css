@@ -620,3 +620,4 @@ html, body { overflow-x: clip; }
   .chip-b { right: 0; }
   .chip-c { left: 30%; }
 }
+.live-dot.figma { color: #a259ff; }

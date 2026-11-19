@@ -57,6 +57,8 @@ export default function Projects() {
     <div className="stackwrap">
       {projects.map((p, i) => {
         const main = p.links.live || p.links.download || p.links.design || p.links.code
+        const mediaUrl = p.theme.media ? p.links[p.theme.media] : main
+        const mediaTag = p.theme.media === 'design' || !p.links.live ? 'FIGMA' : 'LIVE'
         return (
           <article
             key={p.title}
@@ -90,7 +92,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <a className={`pcard-media ${p.theme.appImage ? 'has-phone' : ''}`} href={main} {...ext} aria-label={`Open ${p.title}`}>
+              <a className={`pcard-media ${p.theme.appImage ? 'has-phone' : ''}`} href={mediaUrl} {...ext} aria-label={`Open ${p.title}`}>
                 {p.theme.phones ? (
                   <div className="phone-trio">
                     {p.theme.phones.map((src, k) => (
@@ -102,8 +104,8 @@ export default function Projects() {
                 <div className="browser">
                   <div className="browser-bar">
                     <span className="dots"><i /><i /><i /></span>
-                    <span className="url">{host(main)}</span>
-                    <span className="live-dot">{p.links.live ? 'LIVE' : 'FIGMA'}</span>
+                    <span className="url">{host(mediaUrl)}</span>
+                    <span className={`live-dot ${mediaTag === 'FIGMA' ? 'figma' : ''}`}>{mediaTag}</span>
                   </div>
                   <div className="browser-view">
                     {p.theme.image

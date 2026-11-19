@@ -87,7 +87,7 @@ export const projects = [
       code: 'https://github.com/rychfghg/Campus-Event-Reserve',
       design: 'https://www.figma.com/proto/roBzckLvXRyzN7cCmMFuhv/CampusEvent-Reserve-Web-and-Mobile?node-id=97-1515&p=f&t=JW4Zm8EPXFjhqB5g-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=97%3A1259&show-proto-sidebar=1',
     },
-    theme: { bg: '#1b1f4d', accent: '#8f95ff', image: '/shots/campusevent.jpg', glyph: 'Reserve' },
+    theme: { bg: '#1b1f4d', accent: '#8f95ff', image: '/shots/campusevent-figma.png', media: 'design', glyph: 'Reserve' },
   },
 ]
 
