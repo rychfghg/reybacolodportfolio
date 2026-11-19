@@ -58,7 +58,7 @@ export default function App() {
           <nav className="topnav">
             <a href="#work">Work</a>
             <a href="#stack">Stack</a>
-            <a href="#certs">Certificates</a>
+            <a href="#certs">Certifications</a>
             <a href="#contact">Contact</a>
             <ResumeButton className="topnav-resume" icon={false} />
           </nav>
@@ -118,7 +118,7 @@ export default function App() {
 
           <div className="facts reveal">
             <div className="fact"><strong>{projects.length}</strong><span>Projects</span></div>
-            <div className="fact"><strong>{certifications.length}</strong><span>Certifications</span></div>
+            <div className="fact"><strong>{certifications.length}</strong><span>Certifications &amp; badges</span></div>
             <div className="fact"><strong>{tools.length}+</strong><span>Tools &amp; skills</span></div>
             <a className="fact-email" href={'mailto:' + profile.email}>
               <span>Email</span>
@@ -176,7 +176,7 @@ export default function App() {
         <section id="certs" className="section split-section">
           <div className="side-head reveal">
             <span className="eyebrow">Credentials</span>
-            <h2>Certifications</h2>
+            <h2>Certifications &amp; Badges</h2>
             <p className="side-sub">Verified badges from AWS Academy and Credly. Click any one to verify it.</p>
           </div>
           <div className="cert-list">
