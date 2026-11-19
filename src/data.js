@@ -59,15 +59,16 @@ export const projects = [
   },
   {
     title: 'TrackUtang',
-    kicker: 'Android App · Solo',
+    kicker: 'Android App + Figma Design · Solo',
     role: 'Android Developer',
     year: '2026',
     description:
       'An offline, privacy-first Android debt tracker for money you lend or borrow. All debts and payments are stored in the device’s local database, with no login or account. Includes a dashboard of totals, partial payments and per-debt payment history.',
-    tags: ['Java', 'Android SDK', 'SQLite', 'Gradle', 'Offline-first'],
+    tags: ['Java', 'Android SDK', 'SQLite', 'Gradle', 'Figma', 'Offline-first'],
     links: {
       download: 'https://rychfghg.github.io/TrackUtang/',
       code: 'https://github.com/rychfghg/TrackUtang',
+      design: 'https://www.figma.com/proto/6U0ITbfJrJgRsd7YKyWRj3/Untitled?node-id=1-320&starting-point-node-id=1%3A303',
     },
     theme: {
       bg: '#06302f', accent: '#2dd4bf', image: null, glyph: '₱',
